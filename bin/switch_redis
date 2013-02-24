@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+
+$LOAD_PATH.unshift File.expand_path("#{File.dirname(__FILE__)}/../lib")
+
+# TODO: how to dynamically load the correct
+# adapter for your environment?
+require 'the_clymb'
+
+TheClymb.new.run
